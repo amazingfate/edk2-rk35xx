@@ -4,12 +4,12 @@ on:
     paths-ignore:
       - '**.md'
     branches:
-      - master
+      - master-ex
   pull_request:
     paths-ignore:
       - '**.md'
     branches:
-      - master
+      - master-ex
   workflow_call:
     inputs:
       build-configs:
